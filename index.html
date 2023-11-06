@@ -31,6 +31,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                         <ul>
                             <li><a class="active" href="#home">HOME</a></li>
                             <li><a href="#book-a-car">BOOK A CAR</a></li>
@@ -52,7 +53,6 @@
                     <div class="content">
                         <h1>A car rental company based in Davao.</h1>
                         <h2>provides low costs and reasonable prices.</h2>
-                        <h1>HELLO WORLD!</h1>
                     </div>
                 </div>
             </div>
@@ -84,29 +84,33 @@
                                 <label for="chk-policy">* By signing up you read and agree to our Privacy Policy</label><br>
                             </fieldset>
                             <fieldset class="tab">
-                                <label for="first-name">First Name:</label>
-                                <input type="text" id="first-name" name="first-name" placeholder="Your name..">
-                                <label for="last-name">Last Name:</label>
-                                <input type="text" id="last-name" name="last-name" placeholder="Your name..">
-                                <label for="email">Email address:</label>
-                                <input type="email" id="email" name="email-address" placeholder="Your email address..">
-                                <label for="phone">Phone #:</label>
-                                <input type="tel" id="phone" name="phone" placeholder="(+63)">
-                                <div class="gender-reveal">
-                                    <label for="gender">Gender:</label>
-                                    <input type="radio" id="male" name="your_gender" value="Male">
-                                    <label for="male">Male</label>
-                                    <input type="radio" id="female" name="your_gender" value="Female">
-                                    <label for="female">Female</label>
+                                <div class="col-6">
+                                    <label for="first-name">First Name:</label>
+                                    <input type="text" id="first-name" name="first-name" placeholder="Your name..">
+                                    <label for="last-name">Last Name:</label>
+                                    <input type="text" id="last-name" name="last-name" placeholder="Your name..">
+                                    <label for="email">Email address:</label>
+                                    <input type="email" id="email" name="email-address" placeholder="Your email address..">
+                                    <label for="phone">Phone #:</label>
+                                    <input type="tel" id="phone" name="phone" placeholder="(+63)">
+                                    <div class="gender-reveal">
+                                        <label for="gender">Gender:</label>
+                                        <input type="radio" id="male" name="your_gender" value="Male">
+                                        <label for="male">Male</label>
+                                        <input type="radio" id="female" name="your_gender" value="Female">
+                                        <label for="female">Female</label>
+                                    </div>
                                 </div>
-                                <label for="city">City:</label>
-                                <select id="city" name="city">
-                                    <option value="Davao City">Davao City</option>
-                                    <option value="Panabo City">Panabo City</option>
-                                    <option value="Digos City">Digos City</option>
-                                </select>
-                                <label for="address">Address:</label>
-                                <input type="text" id="address" name="address" placeholder="Your address..">
+                                <div class="col-6">
+                                    <label for="city">City:</label>
+                                    <select id="city" name="city">
+                                        <option value="Davao City">Davao City</option>
+                                        <option value="Panabo City">Panabo City</option>
+                                        <option value="Digos City">Digos City</option>
+                                    </select>
+                                    <label for="address">Address:</label>
+                                    <input type="text" id="address" name="address" placeholder="Your address..">
+                                </div>
                             </fieldset>
                             <fieldset class="tab">
                                 <label for="license">Driver's License:</label>
@@ -350,17 +354,19 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="footer-panel">
-                    <img src="logo.jpg" alt="car-salute-logo">
-                    <div class="footer-menu">
-                        <ul>
-                            <li>Home</li>
-                            <li>Book a car</li>
-                            <li>About Us</li>
-                            <li>Requirements</li>
-                            <li>Blog</li>
-                            <li>Contact details</li>
-                        </ul>
+                <div class="col-12">
+                    <div class="footer-panel">
+                        <img src="logo2.jpg" alt="car-salute-logo">
+                        <div class="footer-menu">
+                            <ul>
+                                <li>Home</li>
+                                <li>Book a car</li>
+                                <li>About Us</li>
+                                <li>Requirements</li>
+                                <li>Blog</li>
+                                <li>Contact details</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
